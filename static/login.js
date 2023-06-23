@@ -7,7 +7,7 @@ function check_login()
 
 function get_login_verification(username, password) {
     var data = { 'username': username, 'password': password };
-    fetch("/get_username_passwords", {
+    fetch("https://blockchain-based-reputation-system-in-carpooling.vercel.app//get_username_passwords", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
